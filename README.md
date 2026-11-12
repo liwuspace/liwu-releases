@@ -15,12 +15,12 @@ Charging targets, Sailing, live power, battery health history, Keep Awake, calib
 
 | Version | Requirements | Download |
 |---|---|---|
-| **Liwu 2** | Apple Silicon MacBook, **macOS 26.7 or later** | [Latest release](https://github.com/urfreespace/liwu-releases/releases/latest) |
-| **Liwu 1 Legacy** | Apple Silicon MacBook, macOS 14 through versions before 26.7 | [Legacy website](https://liwu.app/legacy) · [1.0.8 installer](https://github.com/urfreespace/liwu-releases/releases/download/v1.0.8/Liwu-1.0.8.dmg) |
+| **Liwu 2** | Apple Silicon MacBook, **macOS 26.7 or later** | [Latest release](https://github.com/liwuspace/liwu-releases/releases/latest) |
+| **Liwu 1 Legacy** | Apple Silicon MacBook, macOS 14 through versions before 26.7 | [Legacy website](https://liwu.app/legacy) · [1.0.8 installer](https://github.com/liwuspace/liwu-releases/releases/download/v1.0.8/Liwu-1.0.8.dmg) |
 
 Liwu 1 is frozen and receives no further feature updates. Do not install it on macOS 26.7 or later.
 
-**macOS 27:** Liwu 2 has not been tested on macOS 27 yet. If something does not work as expected there, please [report it](https://github.com/urfreespace/liwu-releases/issues/new?title=macOS+27%3A+&body=What+happened%3A%0A%0AWhat+I+expected%3A%0A%0A-+Mac+model+%28Apple+menu+%E2%86%92+About+This+Mac%29%3A%0A-+macOS+version%3A%0A-+Liwu+version+%28main+window+%E2%86%92+General+%E2%86%92+Version%29%3A%0A-+Area%3A+charge+limit+%2F+Sailing+%2F+calibration+%2F+Keep+Awake+%2F+menu+bar+%2F+energy+use+%2F+other%0A%0AAnything+else+worth+knowing+%28optional%29%3A%0A) or write to support@liwu.app. Details: [Compatibility](https://liwu.app/compatibility).
+**macOS 27:** Liwu 2 has not been tested on macOS 27 yet. If something does not work as expected there, please [report it](https://github.com/liwuspace/liwu-releases/issues/new?title=macOS+27%3A+&body=What+happened%3A%0A%0AWhat+I+expected%3A%0A%0A-+Mac+model+%28Apple+menu+%E2%86%92+About+This+Mac%29%3A%0A-+macOS+version%3A%0A-+Liwu+version+%28main+window+%E2%86%92+General+%E2%86%92+Version%29%3A%0A-+Area%3A+charge+limit+%2F+Sailing+%2F+calibration+%2F+Keep+Awake+%2F+menu+bar+%2F+energy+use+%2F+other%0A%0AAnything+else+worth+knowing+%28optional%29%3A%0A) or write to support@liwu.app. Details: [Compatibility](https://liwu.app/compatibility).
 
 Liwu 2 is available in English, Simplified Chinese, German, French, Spanish, Brazilian Portuguese, Korean and Japanese. It follows your Mac's language, and you can choose one in General.
 
@@ -29,10 +29,10 @@ Liwu 2 is available in English, Simplified Chinese, German, French, Spanish, Bra
 With Homebrew:
 
 ```sh
-brew install --cask urfreespace/liwu/liwu
+brew install --cask liwuspace/liwu/liwu
 ```
 
-Or download the DMG from [Releases](https://github.com/urfreespace/liwu-releases/releases/latest), open it, and drag Liwu to Applications.
+Or download the DMG from [Releases](https://github.com/liwuspace/liwu-releases/releases/latest), open it, and drag Liwu to Applications.
 
 On first launch, follow the prompts to approve Liwu's background component. Charging control needs this component. Menu bar organization separately requests Accessibility and Screen Recording permissions when you use it to read and move icons.
 
@@ -114,7 +114,7 @@ This repository distributes signed installers and hosts public issue reports. Li
 - [Website](https://liwu.app/?utm_source=github&utm_medium=readme)
 - [Changelog](https://liwu.app/changelog?utm_source=github&utm_medium=readme)
 - [Liwu 1 Legacy](https://liwu.app/legacy)
-- [Report an issue](https://github.com/urfreespace/liwu-releases/issues)
+- [Report an issue](https://github.com/liwuspace/liwu-releases/issues)
 
 ---
 
